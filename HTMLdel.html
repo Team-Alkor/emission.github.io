@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html><head>
+    <link rel="stylesheet" href = "CSS1del.css">
+    <link rel="stylesheet" href = "CSS2del.css">
+    <title>TEAM ALKOR-EMIT for the Future</title>
+    <script src="JS1del.js"></script>
+    <script src="JS2del.js"></script>
+    <script src="JS3del.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+
+    <style>
+.containeri {
+  position: relative;
+  text-align: center;
+  color: white;
+  display: inline;
+}
+
+.centered {
+  position: absolute;
+  top: 360%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+</style>
+</head>
+<body style="overflow: unset;">
+    <div class="container">
+      <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+        <p class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+          <spam class="fs-4">ALKOR <img src="alkor.png" alt="Alkor" width="50" height="50"></spam>
+        </p>
+  
+        <ul class="nav nav-pills" id="pills">
+          <li class="nav-item"><a href="#" class="nav-link" aria-current="page">Home</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">EMIT</a></li>
+          <li class="nav-item"><a href="#history" class="nav-link">Video</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+        </ul>
+      </header>
+    </div>
+    <br>
+
+<div>
+  <p>
+    <div class="containeri">
+    <img src="image2.jpeg" alt="Image1" style="width:1349px;height:520px;">
+      <div class="centered" style="font-size:45px"><b>Step into the future with EMIT</b></div>
+    </div>
+  </p>
+</div>
+    <div class="row align-items-md-stretch container" id="education">
+      <div class="col-md-6">
+        <div class="h-100 p-5 bg-light rounded-3">
+          <h2>EMIT</h2>
+          <p>Invented by NASA’s best team of scientists specializing in the areas of Earth System Modeling, surface geology, mineral dust aerosols and imaging spectroscopy - EMIT finds use in many fields of study, providing us with data in order to help combat global warming. Small particles of dust are constantly being blown everywhere by the strong winds. While some may consider this unimportant, it’s significantly changing the direction of Earth’s development when it comes to global warming. Lack of knowledge of the minerals’ composition has led NASA to conduct a research, hoping to determine their impact on our planet. Depending on their color and composition, they can have a heating or cooling effect. Dark minerals contain iron causing the particles to absorb the Sun’s light (meaning they have a heating effect), while bright minerals contain clay which causes the Sun’s light to be deflected. EMIT collects light, measures in divergent wavelengths while being attached to the ISS and functions using imaging spectroscopy - an advanced technology created by NASA’s team. The human eye can see three wavelengths (green, red and blue), therefore EMIT was built to detect all of them. It was first delivered in March of 2022, but its first launch was on July 14th of 2022.
+          </p>
+          <div data-ng-app="" data-ng-init="quantity=1;price=5">
+
+<h2>Methane-CO₂ Calculator</h2>
+
+Methane (‰): <input type="number" ng-model="quantity">
+<p> </p>
+CO₂ (‰): <input type="number" ng-model="price">
+
+<p><b>Change in temperature:</b> {{(quantity + price)/1000}} °C</p>
+
+</div>
+        </div>
+      </div>
+
+
+      <div class="col-md-6">
+        <div class="h-100 p-5 bg-light border rounded-3">
+          <h2></h2>
+          <p>
+              <img src="image0.png" alt="Image2.1" width="440" height="280">
+              <p>
+                
+
+              </p>
+              <img src="image1.jpeg" alt="Image2.2" width="440" height="280">
+        </p></div>
+      </div>
+    </div>
+
+    <br>
+    
+    <div class="d-flex gap-5 justify-content-center container-fluid py-5" id="history">
+      <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg w-100">
+        <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+          <h2>Video</h2>
+        </div>
+          <video width="500" height="400" controls>
+                <source src="Videoshort.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="container">
+      <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark" id="about">
+        <div class="px-0">
+          <h1 class="display-4 fst-italic">About us</h1>
+          <p class="lead my-3">Team Alkor consists of four visionary members, who excel at programming, storytelling, design, prototyping, project organisation etc. Our vision is to implement available technologies to help build a society where software will be open and free for everyone. We’re looking forward to creating a better experience for users, who are willing to learn more and dive in the world of knowledge. All this has a positive impact on our community, because every individual has the opportunity to be inventive, imaginative and innovative. 
+            </p>
+        </div>
+      </div>
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+        </div>
+      </footer>
+
+      
+
+    </div>
+
+    <button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top">
+      <i>↑</i>
+    </button>
+    <div class="loader-wrapper" style="display: none;">
+      <span class="loader"><span class="loader-inner"></span></span>
+    </div>
+    <script src="scripts/scroll.js" type="text/javascript"></script>
+    <script src="https://files.worldwind.arc.nasa.gov/artifactory/web/0.9.0/worldwind.min.js" type="text/javascript"></script>
+    <script src="scripts/bootstrap.bundle.js" type="text/javascript"></script>
+    <script src="scripts/WorldWind.js" type="text/javascript"></script>
+
+</body>
+</html>
